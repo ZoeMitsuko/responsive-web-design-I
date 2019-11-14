@@ -296,6 +296,11 @@ footer h6 {
 
 
 
+
+
+
+
+
 @media (max-width: 800px) {
 	#wrapper {
 		width: 800 px;
@@ -334,33 +339,41 @@ footer h6 {
 }
 
 @media (max-width: 500px) {
-  .top-section {
-  background: pink; 
-  }
+  
   #wrapper {
 	width: 500px;
 	margin: 0 auto;
+	
 }
 .iov {
 	display: center;
 	padding: 5%;
 }
+header {
+	display: center;
+}
 	
 header nav a {
-	display: inline-block;
+	display: block;
 	color: #888;
 	text-decoration: none;
 	font-weight: 400;
 	width: 100%;
-	border-bottom: #888;
+	border-bottom: 1px solid #888;
 }
 header nav {
-	display: flex;
-	flex-direction: column;
+	position: relative;
 	top: 0;
 	left: 0;
 	background: white;
 	width: 100%;
+
+
+
+
+
+
+
 /*header {
 	width: 100%;
 	padding: 10px 20px 60px 20px;
