@@ -305,6 +305,7 @@ footer h6 {
 	#wrapper {
 		width: 800 px;
 		margin: 10%;
+		margin-right: 10%;
 	}
 			.header-image { 
 			display: none;
@@ -321,22 +322,17 @@ footer h6 {
 			width: 15%;
 		}
 		header nav {
+			margin
+			order: -1;
 			position: fixed;
 			top: 0;
 			left: 0;
 			background: white;
 			width: 100%;
-			
-			
-			
-			
-		}
-		.logo {
-			display
-		}
-
+			}
 
 }
+
 
 @media (max-width: 500px) {
   
